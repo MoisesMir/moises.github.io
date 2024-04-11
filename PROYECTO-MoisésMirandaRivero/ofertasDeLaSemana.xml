@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Ofertas de la Semana</title>
+    <link>/ProyectoMoisés.html/oferta1</link>
+    <description>Ofertas semanales en suscripción de pago para disfrutar de paisajes canarios exclusivos.</description>
+    <item>
+      <title>¡Oferta especial! Suscripción anual con un 20% de descuento</title>
+      <link>/ProyectoMoisés.html/oferta2</link>
+      <description>Aprovecha esta oferta limitada y obtén un 20% de descuento en tu suscripción anual para acceder a
+         nuestros paisajes canarios exclusivos.</description>
+    </item>
+    <item>
+      <title>¡Dos meses gratis al suscribirte por tres meses!</title>
+      <link>/ProyectoMoisés.html/oferta2</link>
+      <description>Regístrate ahora por tres meses y obtén dos meses adicionales de forma gratuita para disfrutar de 
+        nuestras impresionantes vistas de paisajes canarios.</description>
+    </item>
+    <item>
+      <title>Descuento del 30% en suscripción mensual</title>
+      <link>/ProyectoMoisés.html/oferta3</link>
+      <description>Por tiempo limitado, disfruta de un 30% de descuento en tu suscripción mensual para acceder a nuestro catálogo 
+        de paisajes canarios.</description>
+    </item>
+    <item>
+      <title>Oferta de fin de semana: Acceso gratuito a vistas exclusivas</title>
+      <link>/ProyectoMoisés.html/oferta4</link>
+      <description>Este fin de semana, regístrate y obtén acceso gratuito a nuestras vistas exclusivas de paisajes canarios.
+         ¡No te lo pierdas!</description>
+    </item>
+
+    <item>
+      <title>Descuento especial para nuevos suscriptores</title>
+      <link>/ProyectoMoisés.html/oferta5</link>
+      <description>Este fin de semana, regístrate y obtén acceso gratuito a nuestras vistas exclusivas de paisajes canarios. 
+        ¡No te lo pierdas!</description>
+    </item>
+    </channel>
+</rss>

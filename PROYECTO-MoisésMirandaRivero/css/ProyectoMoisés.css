@@ -1,0 +1,624 @@
+*{
+    margin: 0px;
+}
+
+.container {
+    display: inline-block;
+    padding: 1.5%;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin-right: 3%; 
+    font-size: 120%;
+    margin-top: 0%;
+    transition: background-color 0.3s; 
+    font-family: "Fjalla One", sans-serif;
+    color: white;
+    position: absolute;
+
+}
+
+.logo {
+    position: absolute;
+    left: 10px;
+    top: 2px;
+    width: 50px;
+    height: auto;
+}
+
+
+
+
+nav {
+    left: 20%;
+    width: 100%; 
+}
+  
+nav > .menu-principal {
+    
+            display: flex;
+            justify-content: flex-end;
+            background-color: #19a94b;
+            color: #ffffff;
+            padding: 10px;
+            z-index: 1000;
+            font-size: 1.0em;
+            gap: 20px;
+            position: sticky;
+            margin-bottom: 2%;
+            
+}
+
+
+
+.menu-principal > div:hover {
+    background-color: #3ccf75;
+}
+
+.IniciarSesion > p {
+    font-size: 100%;
+    font-family: "Fjalla One", sans-serif;
+    color: white;
+    margin-top: 2%;
+}
+
+.IniciarSesion a p {
+    color: inherit; 
+}
+
+.IniciarSesion a:hover {
+    text-decoration: none; 
+}
+.IniciarSesion {
+    text-decoration: none;
+  }
+
+
+
+/*FOTO DE LA CABECERA
+_________________________*/
+
+.FotosPrincipio{
+    background-color: white;
+    position: absolute;
+    height: 40%;
+    width: 100%;
+    display: flex;
+    top: 5%; 
+}
+
+
+.FotosPrincipio > img{
+    width: 100%; 
+    max-width: 50%;
+    display: block;
+
+
+}
+/*FOTOS DEL PAISAJE DE LA SEMANA
+_________________________*/
+.PaisajesDeLaSemana {
+    background-color: #ffffff;
+    position: absolute;
+    height: 10%;
+    top: 49%;
+    width: 100%;
+    margin-bottom: 5%;
+    text-align: center;
+    border-bottom: solid;
+
+}
+
+.PaisajesDeLaSemana > p {
+    font-size: 200%;
+    font-family: "Cinzel", serif;
+}
+
+.PaisajesDeLaSemana1{
+    background-color: white;
+    position: absolute;
+    top: 63%;
+    text-align: center;
+    padding-top: 2%;
+    height: 50%;
+    left: 3%;
+    width: 45%;
+    transition: z-index 0.3s;
+}
+
+.PaisajesDeLaSemana2{
+    background-color: white;
+    position: absolute;
+    top: 63%;
+    text-align: center;
+    padding-top: 2%;
+    height: 50%;
+    left: 52%;
+    width: 45%;
+    transition: z-index 0.3s;
+
+}
+.PaisajesDeLaSemana1 > img {
+    background-color: white;
+    position: absolute;
+    left: 0%;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    transition: z-index 0.3s;
+    margin-bottom: 2%;
+    transform: scale(1); 
+    transition: transform 0.3s; 
+}
+
+.PaisajesDeLaSemana2 > img {
+    background-color: white;
+    position: absolute;
+    left: 0%;
+    top: 0;
+    height: 100%; 
+    width: 100%; 
+    transition: z-index 0.3s;
+    margin-bottom: 2%;
+    transform: scale(1); 
+    transition: transform 0.3s; 
+}
+
+.PaisajesDeLaSemana1 > img:hover{
+    transform: scale(1.1);
+}
+.PaisajesDeLaSemana2 > img:hover {
+    transform: scale(1.1); 
+}
+/*INFROMACION DEBAJO DE LA FOTO DEL PAISAJE DE LA SEMANA
+_________________________*/
+
+.PaisajesDeLaSemana1Info{
+    position: absolute;
+    top: 120%;
+    height: 10%;
+    left: 3%;
+    width: 45%;  
+    font-size: 100%;
+    font-family: "Cinzel", serif;
+}
+
+.PaisajesDeLaSemana2Info{
+    position: absolute;
+    top: 120%;
+    height: 10%;
+    left: 52%;
+    width: 45%;
+    font-size: 100%;
+    font-family: "Cinzel", serif;
+}
+
+/*VOTAR PAISAJE DE LA SEMANA
+_________________________*/
+.VotarPaisaje {
+    background-color: #19a94b;
+    position: absolute;
+    top: 130%;
+    text-align: center;
+    padding-top: 2%;
+    height: 10%;
+    width: 10%;
+    left: 20%;
+    border-radius: 10%;
+    cursor: pointer; 
+}
+
+.VotarPaisaje > p {
+    font-size: 200%;
+    font-family: "Fjalla One", sans-serif;
+    color: white;
+    margin-top: 2%;
+}
+
+.VotarPaisaje a p {
+    color: inherit; 
+}
+
+.VotarPaisaje a:hover {
+    text-decoration: none; 
+}
+.VotarPaisaje {
+    text-decoration: none;
+  }
+
+.VotarPaisaje1{
+    background-color: #19a94b;
+    position: absolute;
+    top: 130%;
+    text-align: center;
+    padding-top: 2%;
+    height: 10%;
+    width: 10%;
+    left: 70%;
+    border-radius: 10%;
+    cursor: pointer; 
+}
+
+
+
+.VotarPaisaje1 > p {
+    font-size: 200%;
+    font-family: "Fjalla One", sans-serif;
+    color: white;
+    margin-top: 2%;
+}
+
+.VotarPaisaje1 a:hover {
+    text-decoration: none; 
+}
+.VotarPaisaje1 {
+    text-decoration: none;
+}
+
+.seccion-a-votar a {
+    text-decoration: none; 
+    color: inherit;
+}
+
+/*GALERIA DE FOTOS TITULO
+_________________________*/
+.galeriaDeFotos2 {
+    background-color: #ffffff;
+    position: absolute;
+    top: 150%;
+    width: 29%;
+    margin-bottom: -2%;
+    text-align: left;
+    border-bottom: solid;
+
+}
+
+.galeriaDeFotos2 > p {
+    font-size: 200%;
+    font-family: "Cinzel", serif;
+}
+
+/* GALERIA DE 3 COLUMNAS Y 3 FILAS
+_________________________*/
+.GranGaleriaDeFotos {
+    position: absolute;
+    height: 82%;
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    top: 162%;
+}
+
+.GranGaleriaDeFotos > img {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 82/50;
+    object-fit: cover;
+}
+
+.GranGaleriaDeFotosInfo {
+    position: absolute;
+    top: 165%;
+    height: 10%;
+    left: 60%;
+    width: 25%;
+    display: inline-block;
+    font-size: 100%;
+    font-family: "Cinzel", serif;
+    color: #19a94b;
+    font-weight: bold;
+    letter-spacing: 2px; 
+}
+
+.GranGaleriaDeFotosInfo > p1 {
+    font-size: 200%;
+    font-family: "Cinzel", serif;
+    color: #000000;
+    font-weight: bold;
+    letter-spacing: 2px; 
+}
+
+
+
+
+.galeriaDeFotos2_2 {
+    background-color: #ffffff;
+    position: absolute;
+    height: 11%;
+    top: 245%;
+    width: 30%;
+    text-align: left;
+    border-bottom: solid;
+
+}
+
+.galeriaDeFotos2_2 > p {
+    font-size: 200%;
+    font-family: "Cinzel", serif;
+}
+
+.galeriaDeFotos2_2  > p1 {
+    font-size: 300%;
+    font-family: "Cinzel", serif;
+    color: #000000;
+    font-weight: bold;
+    letter-spacing: 4px; 
+}
+
+/* GALERIA DE 2 COLUMNAS Y 4 FILAS
+_________________________*/
+
+.GranGaleriaDeFotos2 {
+    position: absolute;
+    height: 40%;
+    width: 30%;
+    display: grid;
+    grid-template-columns: repeat(2, 4fr);
+    top: 260%;
+}
+
+.GranGaleriaDeFotos2 > img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s;
+}
+
+
+.GranGaleriaDeFotos2 > img:hover {
+    transform: scale(1.1);
+}
+
+.GranGaleriaDeFotosInfo2 {
+    position: absolute;
+    top: 260%;
+    height: 10%;
+    left: 35%;
+    width: 25%;
+    display: inline-block;
+    font-size: 100%;
+    font-family: "Cinzel", serif;
+    color: #19a94b;
+    font-weight: bold;
+    letter-spacing: 2px; 
+}
+
+.GranGaleriaDeFotosInfo2 > p {
+    font-family: "Cinzel", serif;
+    color: #000000;
+    font-weight: bold;
+    letter-spacing: 4px; 
+}
+
+/*TRABAJA CON NOSOTROS
+_________________________*/
+
+.TrabajaConNosotrosTitulo > p1 {
+    font-size: 150%;
+    font-family: "Cinzel", serif;
+    color: #000000;
+    font-weight: bold;
+    letter-spacing: 4px; 
+    text-align: center;
+    top: 345%;
+    position: absolute;
+    margin-bottom: -2%;
+    text-align: left;
+    border-bottom: solid;
+}
+
+.TrabajaConNosotrosValoresTexto >p1{
+    font-size: 150%;
+    font-family: "Cinzel", serif;
+    color: #000000;
+    font-weight: bold;
+    letter-spacing: 4px; 
+    margin: center;
+    left: 37%;
+    top: 355%;
+    position: absolute;
+    margin-bottom: -2%;
+    text-align: center;
+    border-bottom: solid;
+}
+
+.TrabajaConNosotrosFotos {
+    top: 365%;
+    width: 45%;
+    height: 30%;
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    left: 30%;
+    color: #19a94b;
+}
+
+.TrabajaConNosotrosFotos > img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s;
+}
+
+
+.TrabajaConNosotrosFotos > img:hover {
+    transform: scale(1.1);
+}
+
+.ContenedorTrabajaConNosotros {
+    left: 12%;
+    position: absolute;
+    top: 400%;
+    height: 50%;
+    width: 80%;
+    font-size: 15px;
+}
+
+.ContenedorTrabajaConNosotros > .TrabajaConNosotrosInformacion {
+    background-color: rgb(255, 255, 255);
+    padding-top: 2%;
+    padding: 20px; 
+    height: 50%;
+    width: 26%;
+    position: absolute;
+    border-radius: 5%;
+    border: 4px solid #000000;
+    transition: box-shadow 0.3s; 
+}
+
+.ContenedorTrabajaConNosotros > .TrabajaConNosotrosInformacion:hover {
+    box-shadow: 0px 0px 80px rgba(0, 0, 0, 0.5); 
+}
+
+  .ContenedorTrabajaConNosotros > .TrabajaConNosotrosInformacion > p {
+    font-size: 150%;
+    font-family: "Cinzel", serif;
+    color: #19a94b;
+    font-weight: bold;
+    letter-spacing: 4px; 
+    text-align: center;
+
+}
+
+.ContenedorTrabajaConNosotros > .TrabajaConNosotrosInformacion > p1{
+    font-size: 90%;
+    font-family: "Cinzel", serif;
+    color: #000000;
+    font-weight: bold;
+    letter-spacing: 2px; 
+    text-align: center;
+}
+
+
+  .ContenedorTrabajaConNosotros > .TrabajaConNosotrosInformacion1 {
+    background-color: rgb(255, 255, 255);
+    padding-top: 2%;
+    padding: 20px; 
+    height: 50%;
+    width: 26%;
+    position: absolute;
+    border-radius: 5%;
+    border: 4px solid #000000;
+    transition: box-shadow 0.3s; 
+    left: 37%;
+}
+
+.ContenedorTrabajaConNosotros > .TrabajaConNosotrosInformacion1:hover {
+    box-shadow: 0px 0px 80px rgba(0, 0, 0, 0.5); 
+}
+
+.ContenedorTrabajaConNosotros > .TrabajaConNosotrosInformacion1 > p {
+    font-size: 150%;
+    font-family: "Cinzel", serif;
+    color: #19a94b;
+    font-weight: bold;
+    letter-spacing: 4px; 
+    text-align: center;
+
+}
+
+.ContenedorTrabajaConNosotros > .TrabajaConNosotrosInformacion1 > p1{
+    font-size: 90%;
+    font-family: "Cinzel", serif;
+    color: #000000;
+    font-weight: bold;
+    letter-spacing: 2px; 
+    text-align: center;
+}
+
+.ContenedorTrabajaConNosotros > .TrabajaConNosotrosInformacion2 {
+    background-color: rgb(255, 255, 255);
+    padding-top: 2%;
+    padding: 20px; 
+    height: 50%;
+    width: 26%;
+    position: absolute;
+    border-radius: 5%;
+    border: 4px solid #000000;
+    transition: box-shadow 0.3s; 
+    left: 74%;
+}
+
+.ContenedorTrabajaConNosotros > .TrabajaConNosotrosInformacion2:hover {
+    box-shadow: 0px 0px 80px rgba(0, 0, 0, 0.5); 
+}
+
+.ContenedorTrabajaConNosotros > .TrabajaConNosotrosInformacion2 > p {
+    font-size: 150%;
+    font-family: "Cinzel", serif;
+    color:#19a94b;;
+    font-weight: bold;
+    letter-spacing: 4px; 
+    text-align: center;
+}
+
+.ContenedorTrabajaConNosotros > .TrabajaConNosotrosInformacion2 > p1{
+    font-size: 90%;
+    font-family: "Cinzel", serif;
+    color: #000000;
+    font-weight: bold;
+    letter-spacing: 2px; 
+    text-align: center;
+}
+
+
+
+/*PIE DE LA PAGINA
+_________________________*/
+
+footer > .QuienesSomosWeb{
+    position: fixed;
+    bottom: 0;
+    left:47%;
+    width: 10%;
+    height: 65px;
+    background-color: #19a94b;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-style: inherit;
+    font-weight: italic;
+  }
+
+
+
+footer > .copyright{
+    position: fixed;
+    bottom: 0;
+    left: 35%;
+    width: 120%;
+    height: 65px;
+    background-color: #19a94b;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-style: inherit;
+  }
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 120%;
+    height: 65px;
+    background-color: #19a94b;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-style: inherit;
+
+  }
+
+  footer p {
+    font-size: 100%;
+    font-family: "Fjalla One", sans-serif;
+    color: white;
+    padding-top: 5px;
+  }
+  footer p a {
+    text-decoration: none; 
+    color: inherit;
+  }
+  
+  footer img {
+    width: 30px; 
+    height: auto;
+  }
+
+
+  

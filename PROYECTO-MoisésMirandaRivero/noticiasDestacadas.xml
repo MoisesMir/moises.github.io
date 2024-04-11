@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Noticias Destacadas</title>
+    <link>E:\Modulos\LND\TEMA 5\PROYECTO-MoisésMirandaRivero\noticias\noticias.html</link>
+    <description>Últimas noticias destacadas de la marca/producto/servicio</description>
+    <item>
+      <title>El paisaje de la orotava en peligro</title>
+      <link>/ProyectoMoisés.html/noticia1</link>
+      <description>Descubre por qué el paisaje de la Orotava está en peligro y qué medidas se están tomando para protegerlo.</description>
+    </item>
+    <item>
+      <title>Telde el nuevo paisaje turistico</title>
+      <link>/ProyectoMoisés.html/noticia2</link>
+      <description>Explora cómo Telde se está convirtiendo en un nuevo destino turístico y las atracciones que ofrece.</description>
+    </item>
+    <item>
+      <title>Las dunas de Maspalomas, atacadas por influencers</title>
+      <link>/ProyectoMoisés.html/noticia3</link>
+      <description>Lee sobre el impacto negativo que están teniendo los influencers en las dunas de Maspalomas y qué se puede hacer al respecto.</description>
+    </item>
+    <item>
+      <title>Tejeda gana el premio a pueblo mas bonito de España</title>
+      <link>/ProyectoMoisés.html/noticia4</link>
+      <description>Descubre por qué Tejeda ha sido galardonada como el pueblo más bonito de España y qué lo hace tan especial.</description>
+    </item>
+    <item>
+      <title>El ayuntamiento de Las Palmas limpiara las canteras con frecuencia</title>
+      <link>/ProyectoMoisés.html/noticia5</link>
+      <description>Entérate de los esfuerzos del Ayuntamiento de Las Palmas por mantener limpias las canteras y preservar el medio ambiente.</description>
+    </item>
+  </channel>
+</rss>
